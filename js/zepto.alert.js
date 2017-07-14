@@ -159,7 +159,7 @@
         unLock : function() {
     		if (this.settings.lock) {
     			if (isLock) {
-	                this.lock.remove();
+	                $(this.lock).remove();
 	                isLock = false;
                 }
             }
